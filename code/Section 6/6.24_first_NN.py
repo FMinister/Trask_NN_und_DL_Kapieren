@@ -18,7 +18,7 @@ walk_vs_stop = np.array([[1, 1, 0, 0]]).T
 
 # Bias
 alpha = 0.2
-# len of streetlights
+# size of hidden_layer
 hidden_size = 4
 
 weights_0_1 = 2 * np.random.random((3, hidden_size)) - 1
